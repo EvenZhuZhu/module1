@@ -1,0 +1,126 @@
+.wrap {
+  width: 1180px;
+  position: relative;
+  margin: 0 auto;
+}
+
+section.information {
+  background-color: #fff;
+  padding: 8px 30px 30px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+section.information .list {
+  width: 21.875%;
+  float: left;
+  margin-right: 4.16%;
+}
+
+section.information .list:last-child {
+  margin-right: 0;
+}
+
+section.information .list .title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section.information .list .title em {
+  width: 3px;
+  height: 16px;
+  display: inline-block;
+  background-color: #c80101;
+  vertical-align: -2px;
+  margin-right: 12px;
+}
+
+section.information .list .imgsouter {
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  position: relative;
+}
+
+section.information .list .imgsouter img {
+  display: inline-block;
+}
+
+section.information .list .imgsouter span {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 65px;
+  overflow: hidden;
+  padding: 0 12px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, .01) 0%, rgba(0, 0, 0, .3) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, .01)), color-stop(100%,rgba(0, 0, 0, .3)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, .01) 0%,rgba(0, 0, 0, .3) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, .01) 0%,rgba(0, 0, 0, .3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, .01) 0%,rgba(0, 0, 0, .3) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .01) 0%,rgba(0, 0, 0, .3) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0A000000', endColorstr='#4C000000'); /* IE9及以下 */
+}
+
+:root {filter:none;}
+
+section.information .list .sublist {
+  width: 100%;
+  list-style: disc;
+  list-style-position: inside;
+  list-style-type: disc;
+  font-size: 12px;
+  padding: 16px 0
+}
+
+section.information .list .sublist li {
+  line-height: 28px;
+  width: 100%;
+  overflow: hidden; /*超出部分隐藏*/
+  white-space: nowrap; /*不换行*/
+  text-overflow: ellipsis; /*超出部分文字以...显示*/
+}
+
+section.information .list .sublist li a {
+  color: #3c3c3c;
+}
+
+section.information .list .sublist li a:hover {
+  cursor: pointer;
+  color: #c80101;
+  text-decoration: none;
+}
+
+section.information .list .more {
+  display: inline-block;
+  font-size: 10px;
+  width: 64px;
+  height: 26px;
+  line-height: 26px;
+  color: #5a5a5a;
+  border: 1px solid #c5c5c5;
+  border-radius: 13px;
+  text-align: center;
+  
+}
+
+section.information .list .more:hover {
+  color: #c80101;
+  border: 1px solid #c80101;
+  background-color: #fff7f7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
